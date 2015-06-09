@@ -1,0 +1,23 @@
+{
+    "name": "thunder/redoku",
+    "description": "Sudoku solver",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomasz Kowalczyk",
+            "email": "tomasz@kowalczyk.cc"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thunder\\Redoku\\": "src",
+            "Thunder\\Redoku\\Tests\\": "tests"
+        }
+    }
+}
